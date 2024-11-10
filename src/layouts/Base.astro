@@ -1,13 +1,13 @@
 ---
-import TwSizeIndicator from "@/components/TwSizeIndicator.astro";
-import config from "@/config/config.json";
-import theme from "@/config/theme.json";
-import { plainify } from "@/lib/utils/textConverter";
-import Footer from "@/partials/Footer.astro";
-import Header from "@/partials/Header.astro";
-import "@/styles/main.scss";
-import { AstroFont } from "astro-font";
-import { ViewTransitions } from "astro:transitions";
+import TwSizeIndicator from '@/components/TwSizeIndicator.astro';
+import config from '@/config/config.json';
+import theme from '@/config/theme.json';
+import { plainify } from '@/lib/utils/textConverter';
+import Footer from '@/partials/Footer.astro';
+import Header from '@/partials/Header.astro';
+import '@/styles/main.scss';
+import { AstroFont } from 'astro-font';
+import { ViewTransitions } from 'astro:transitions';
 
 // font families
 const pf = theme.fonts.font_family.primary;
@@ -16,13 +16,13 @@ const sf = theme.fonts.font_family.secondary;
 let fontPrimary, fontSecondary;
 if (theme.fonts.font_family.primary) {
   fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
+    .replace(/\+/g, ' ')
+    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, '');
 }
 if (theme.fonts.font_family.secondary) {
   fontSecondary = theme.fonts.font_family.secondary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
+    .replace(/\+/g, ' ')
+    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, '');
 }
 
 // types for frontmatters
@@ -61,25 +61,37 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVS90KCXK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-PYVS90KCXK');
+    </script>
     <!-- google font css -->
     <AstroFont
       config={[
         {
           src: [],
           preload: false,
-          display: "swap",
+          display: 'swap',
           name: fontPrimary!,
-          fallback: "sans-serif",
-          cssVariable: "font-primary",
+          fallback: 'sans-serif',
+          cssVariable: 'font-primary',
           googleFontsURL: `https://fonts.googleapis.com/css2?family=${pf}&display=swap`,
         },
         {
           src: [],
           preload: false,
-          display: "swap",
+          display: 'swap',
           name: fontSecondary!,
-          fallback: "sans-serif",
-          cssVariable: "font-secondary",
+          fallback: 'sans-serif',
+          cssVariable: 'font-secondary',
           googleFontsURL: `https://fonts.googleapis.com/css2?family=${sf}&display=swap`,
         },
       ]}
@@ -133,7 +145,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
+      content={`${config.site.base_url}/${Astro.url.pathname.replace('/', '')}`}
     />
 
     <!-- twitter-title -->
