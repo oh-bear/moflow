@@ -34,11 +34,6 @@
           "name": "Integrations",
           "url": "/integrations"
         },
-
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
         {
           "name": "Sign In",
           "url": "/signin"
@@ -47,26 +42,31 @@
           "name": "Elements",
           "url": "/elements"
         },
+
         {
-          "name": "Changelog",
+          "name": "价格",
+          "url": "/pricing"
+        },
+        {
+          "name": "更新日志",
           "url": "/changelog"
         },
         {
-          "name": "User Agreement",
+          "name": "用户条款",
           "url": "/user-agreement"
         },
         {
-          "name": "Privacy Policy",
+          "name": "隐私协议",
           "url": "/privacy-policy"
         },
         {
-          "name": "Subscription Terms",
+          "name": "付费协议",
           "url": "/subscription-terms"
         }
       ]
     },
     {
-      "name": "Contact",
+      "name": "联系我们",
       "url": "/contact"
     }
   ],

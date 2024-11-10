@@ -1,41 +1,58 @@
 ---
-title: "Subscription Terms"
-excerpt: Donec sollicitudin molestie malesda. Donec sollitudin molestie male <br /> suada Mauris pellentesque nec egestas non nisi Cras
+title: "付费协议"
 draft: false
 ---
 
-### 1. Definitions
+**一、协议的接受**
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number. The personal data we collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our Site, we may collect non-identifying information from you, such as referring URL, browser, operating system, cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, this information alone cannot usually be used to identify you.The term "personal data" does not include any anonymized and aggregated data made on the basis of personal data, which are wholly owned by Conclude.
+欢迎你使用 MoFlow 的付费服务。本付费协议（以下简称 “本协议”）是你与 MoFlow 之间关于使用 MoFlow 付费服务所订立的协议。你在购买、使用 MoFlow 的付费服务之前，应当仔细阅读本协议的全部内容。一旦你购买、使用 MoFlow 的付费服务，即表示你已充分阅读、理解并接受本协议的全部内容，本协议即对双方产生法律约束力。如果你不同意本协议的任何内容，或者无法准确理解本协议任何条款的含义，请不要购买或使用 MoFlow 的付费服务。
 
-### 2. General Terms
+**二、付费服务内容**
 
-#### Service Provided AS IS
+1. MoFlow 提供的付费服务包括但不限于 [具体列出付费服务的内容，如高级功能、专属资源等]。具体的服务内容以 MoFlow 平台上的描述为准。
+2. MoFlow 有权根据实际情况调整、变更或终止付费服务内容，但会提前通知用户并提供合理的解决方案。
 
-The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
+**三、费用及支付方式**
 
-#### Interoperation with Slack
+1. 你使用 MoFlow 的付费服务需要支付相应的费用。费用标准以  MoFlow 平台上公布的价格为准。 MoFlow 有权根据市场情况、服务成本等因素调整费用标准，但会提前通知用户。
+2. 你可以通过 MoFlow 支持的支付方式进行付费，如信用卡、支付宝、微信支付等。在支付过程中，你应当遵守支付平台的相关规定和要求。
+3. 一旦支付成功，费用不予退还，除非法律另有规定或 MoFlow 另有明确承诺。
 
-The Service interoperates with Slack.com, and depends on the continuing availability and access to Slack. If for any reason Conclude cannot access or use Slack (including without limitation, change in terms or increase in fees charged by Slack), Conclude may not be able to provide all of the functions of its Service. No refund or credit, if applicable, will be provided for temporary unavailability of Slack (for example, maintenance windows).
+**四、服务期限和使用限制**
 
-#### Company Liability
+1. 付费服务的期限自你购买之日起计算，具体期限以你选择的服务套餐为准。
+2. 你不得将付费服务转让、出售或出借给他人使用。你应当妥善保管你的账号和密码，不得泄露给他人。
+3. 你应当遵守 MoFlow 的使用规则和限制，不得使用任何非法手段获取或使用付费服务。如违反使用规则和限制， MoFlow 有权暂停或终止你的付费服务，并保留追究法律责任的权利。
 
-If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions conducted by its designated users of the Service.
+**五、服务质量和保障**
 
-### 4. Rules of Use
+1. MoFlow 将尽合理努力为你提供高质量的付费服务。但由于技术、网络等客观因素的影响， MoFlow 不能保证付费服务的绝对稳定性和可靠性。
+2. 如你在使用付费服务过程中遇到问题或不满意的地方，可以及时联系 MoFlow 的客服人员。 MoFlow 将尽合理努力为你解决问题，并不断改进服务质量。
 
-1. must keep passwords secure and confidential;
-2. are solely responsible for User Data and all activity in their account while using the Service;
-3. must use commercially reasonable efforts to prevent unauthorized access to their account, and notify Conclude promptly of any such unauthorized access; and
-4. may use the Service only in accordance with Conclude's online user guide and all applicable laws and regulations.
+**六、知识产权保护**
 
-#### You must not
+1. MoFlow 的付费服务所包含的所有内容，包括但不限于文字、图片、音频、视频、软件等，均受知识产权法的保护。未经  MoFlow 书面授权，你不得复制、传播、修改、改编、翻译、汇编或以其他方式使用付费服务的内容。
+2. 你在使用付费服务过程中所产生的内容，如评论、反馈、建议等，其知识产权归你所有，但你同意授予 MoFlow 在全球范围内免费、永久、不可撤销的使用、复制、传播、修改、改编、翻译、汇编等权利。
 
-- Enhance or improve User experience, our Site, or our Service.
-- Process transactions.
-- Send emails about our Site or respond to inquiries.
-- As this Privacy Policy and our Terms of Service.
+**七、免责声明**
 
-### 5. Intellectual Property Rights
+1. MoFlow 的付费服务仅供参考，不能替代专业的建议或服务。如果你有特定的需求或问题，应咨询专业人士。
+2. MoFlow 不对付费服务的准确性、完整性、及时性、可靠性或可用性作出任何保证或承诺。你在使用付费服务时，应当自行判断其内容的真实性、准确性和适用性，并自行承担由此产生的风险和损失。
+3. MoFlow 不对因不可抗力、网络故障、系统故障、黑客攻击、病毒感染等不可预见、不可避免的原因所导致的付费服务中断、数据丢失或其他损失承担责任。
 
-Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you choose to provide information to us, Conclude transfers Personal Information to Google Cloud Platform and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+**八、协议的变更和终止**
+
+1.  MoFlow 有权随时修改本协议的内容，并在 MoFlow 平台上公布修改后的协议。你应当定期查看本协议的内容，如你不同意修改后的协议内容，应立即停止使用付费服务。
+2. 如你违反本协议的任何规定， MoFlow 有权暂停或终止你的付费服务，并保留追究法律责任的权利。
+3. 本协议在你停止使用付费服务或 MoFlow  终止向你提供付费服务时终止。
+
+**九、法律适用和争议解决**
+
+1. 本协议的签订、履行、解释及争议解决均适用中华人民共和国法律。
+2. 如你与 MoFlow 之间发生任何争议，应首先通过友好协商解决；协商不成的，任何一方均有权向有管辖权的人民法院提起诉讼。
+
+**十、其他条款**
+
+1. 本协议的标题仅为方便阅读而设，不具有任何法律或合同效力。
+2. 本协议的任何条款如被认定为无效或不可执行，不影响其他条款的法律效力。
+3. MoFlow 未行使本协议项下的任何权利不构成对该权利的放弃。

@@ -1,41 +1,76 @@
 ---
-title: "Privacy Policy"
-excerpt: Donec sollicitudin molestie malesda. Donec sollitudin molestie male <br /> suada Mauris pellentesque nec egestas non nisi Cras
+title: "隐私协议"
 draft: false
 ---
+**一、引言**
 
-### 1. Definitions
+欢迎你使用 MoFlow 的服务。 MoFlow 高度重视你的隐私保护，本隐私协议旨在向你说明我们如何收集、使用、存储和披露你的个人信息，以及你对自己个人信息享有的权利。请你在使用 MoFlow 的服务之前，仔细阅读本隐私协议的全部内容。
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number. The personal data we collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our Site, we may collect non-identifying information from you, such as referring URL, browser, operating system, cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, this information alone cannot usually be used to identify you.The term "personal data" does not include any anonymized and aggregated data made on the basis of personal data, which are wholly owned by Conclude.
+**二、定义**
 
-### 2. General Terms
+1. “个人信息” 是指以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。
+2. “MoFlow” 是指提供 MoFlow 的主体，包括但不限于其网站、应用程序、线下场所等。
 
-#### Service Provided AS IS
+**三、我们收集的个人信息**
 
-The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
+1. 你在注册、登录 MoFlow 的服务时，我们可能会收集你的姓名、性别、出生日期、联系方式、账号密码等信息。
+2. 你在使用 MoFlow 的服务过程中，我们可能会收集你的使用记录、浏览历史、偏好设置等信息。
+3. 我们可能会通过 cookies、网络信标等技术手段收集你的设备信息、IP 地址、地理位置等信息。
 
-#### Interoperation with Slack
+**四、我们如何使用个人信息**
 
-The Service interoperates with Slack.com, and depends on the continuing availability and access to Slack. If for any reason Conclude cannot access or use Slack (including without limitation, change in terms or increase in fees charged by Slack), Conclude may not be able to provide all of the functions of its Service. No refund or credit, if applicable, will be provided for temporary unavailability of Slack (for example, maintenance windows).
+1. 为你提供 MoFlow 的服务，包括但不限于心理疗愈课程、冥想引导、自然声音体验等。
+2. 改善我们的服务质量，包括但不限于分析用户行为、优化服务流程、提高用户体验等。
+3. 与你进行沟通和互动，包括但不限于发送通知、回复咨询、处理投诉等。
+4. 遵守法律法规的要求，包括但不限于履行法定义务、配合监管部门的调查等。
 
-#### Company Liability
+**五、我们如何存储个人信息**
 
-If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions conducted by its designated users of the Service.
+1. 我们将你的个人信息存储在安全的服务器上，并采取合理的技术和管理措施保护你的个人信息安全。
+2. 我们将根据法律法规的要求和你的授权期限，确定你的个人信息的存储期限。在存储期限届满后，我们将及时删除你的个人信息或进行匿名化处理。
 
-### 4. Rules of Use
+**六、我们如何共享个人信息**
 
-1. must keep passwords secure and confidential;
-2. are solely responsible for User Data and all activity in their account while using the Service;
-3. must use commercially reasonable efforts to prevent unauthorized access to their account, and notify Conclude promptly of any such unauthorized access; and
-4. may use the Service only in accordance with Conclude's online user guide and all applicable laws and regulations.
+1. 我们不会向第三方披露你的个人信息，除非：
+    - 获得你的明确授权；
+    - 为了提供你所要求的服务而必须向第三方披露；
+    - 为了遵守法律法规的要求而必须向第三方披露；
+    - 为了保护我们的合法权益而必须向第三方披露。
+2. 我们会要求第三方合作伙伴遵守严格的隐私保护要求，确保你的个人信息得到妥善保护
+3. 我们使用第三方SDK来提供某些功能和服务。这些 SDK 可能会收集和处理你的个人信息：
+    - 友盟+SDK
+        - 服务类型：统计分析
+        - 收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/SIM卡IMSI/ICCID/地理位置等）
+        - 隐私权政策链接：https://www.umeng.com/page/policy
+4. 我们已对上述 SDK 进行了合规配置，确保在用户同意本隐私政策后才会初始化SDK并开始数据采集。
+5. 我们会定期审核第三方 SDK 的隐私政策和数据处理做法，以确保它们符合相关法律法规和我们的隐私保护标准。
 
-#### You must not
+**七、你的权利**
 
-- Enhance or improve User experience, our Site, or our Service.
-- Process transactions.
-- Send emails about our Site or respond to inquiries.
-- As this Privacy Policy and our Terms of Service.
+1. 你有权访问、更正、删除你的个人信息。你可以通过登录 MoFlow 的网站或应用程序，在个人设置中进行相应的操作。
+2. 你有权撤回你的授权同意。你可以通过删除你的账户、关闭特定功能等方式撤回你的授权同意。但请注意，撤回授权同意可能会影响你使用 MoFlow 的服务。
+3. 你有权要求我们提供你的个人信息副本。你可以通过向我们发送书面请求的方式要求我们提供你的个人信息副本。
+4. 你有权要求我们限制处理你的个人信息。你可以通过向我们发送书面请求的方式要求我们限制处理你的个人信息。例如，你可以要求我们在特定情况下停止处理你的个人信息。
 
-### 5. Intellectual Property Rights
+**八、我们如何保护个人信息安全**
 
-Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you choose to provide information to us, Conclude transfers Personal Information to Google Cloud Platform and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+1. 我们将采取合理的技术和管理措施保护你的个人信息安全，包括但不限于加密技术、访问控制、安全审计等。
+2. 我们将对员工进行隐私保护培训，提高员工的隐私保护意识。
+3. 我们将定期对我们的隐私保护措施进行评估和改进，以确保你的个人信息安全。
+
+**九、隐私政策的变更**
+
+1. 我们可能会根据法律法规的要求、业务发展的需要或用户反馈的意见，对本隐私协议进行变更。
+2. 我们将在变更生效前，通过在 MoFlow 的网站或应用程序上发布公告、发送通知等方式向你告知变更的内容。
+3. 如果你不同意变更后的隐私协议内容，你可以停止使用 MoFlow 的服务。如果你继续使用 MoFlow 的服务，则视为你已接受变更后的隐私协议内容。
+
+**十、法律适用和争议解决**
+
+1. 本隐私协议的签订、履行、解释及争议解决均适用中华人民共和国法律。
+2. 如你与 MoFlow 之间发生任何争议，应首先通过友好协商解决；协商不成的，任何一方均有权向有管辖权的人民法院提起诉讼。
+
+**十一、其他条款**
+
+1. 本隐私协议的标题仅为方便阅读而设，不具有任何法律或合同效力。
+2. 本隐私协议的任何条款如被认定为无效或不可执行，不影响其他条款的法律效力。
+3. MoFlow 未行使本隐私协议项下的任何权利不构成对该权利的放弃。
