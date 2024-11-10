@@ -43,7 +43,6 @@
           "name": "Sign In",
           "url": "/signin"
         },
-
         {
           "name": "Elements",
           "url": "/elements"
@@ -53,8 +52,16 @@
           "url": "/changelog"
         },
         {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
+          "name": "User Agreement",
+          "url": "/user-agreement"
+        },
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "name": "Subscription Terms",
+          "url": "/subscription-terms"
         }
       ]
     },

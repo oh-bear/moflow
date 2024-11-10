@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "MoFlow",
+    "base_url": "https://moflowapp.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "MoFlow"
   },
 
   "settings": {
@@ -38,12 +38,12 @@
     "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
     "phone": "+704-555-0127",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2024 [MoFlow](https://moflowapp.com)"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Airing",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "moflow app"
   }
 }

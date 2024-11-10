@@ -1,5 +1,5 @@
 ---
-title: "Terms & Condition Of Pinwheel"
+title: "Subscription Terms"
 excerpt: Donec sollicitudin molestie malesda. Donec sollitudin molestie male <br /> suada Mauris pellentesque nec egestas non nisi Cras
 draft: false
 ---

@@ -28,9 +28,10 @@ const { title, description, authors, categories, image, date, tags } =
               .filter((author) =>
                 authors
                   .map((author: string) => slugify(author))
+                  // @ts-ignore
                   .includes(slugify(author.data.title))
               )
-              .map((author, i) => (
+              .map((author: any, i: number) => (
                 <a
                   href={`/authors/${slugify(author.slug)}`}
                   class="flex items-center hover:text-primary"
