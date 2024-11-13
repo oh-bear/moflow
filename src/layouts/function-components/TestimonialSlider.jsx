@@ -12,7 +12,7 @@ const TestimonialSlider = ({ list }) => {
   const paginationRef = useRef(null);
 
   return (
-    <div className="reviews-carousel relative">
+    <div className="reviews-carousel relative w-full max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto">
       <Swiper
         pagination={{
           type: "bullets",
@@ -37,13 +37,13 @@ const TestimonialSlider = ({ list }) => {
       >
         {list.map((item, i) => (
           <SwiperSlide key={"feature-" + i}>
-            <div className="review">
+            <div className="review bg-[#f5f5f5]">
               <div className="review-author-avatar bg-gradient">
                 <img src={item.avatar} alt="" />
               </div>
               <h4 className="mb-2">{item.author}</h4>
-              <p className="mb-4 text-[#666]">{item.organization}</p>
-              <p>{item.content}</p>
+              {/* <p className="mb-4 text-[#666]">{item.organization}</p> */}
+              <p className="text-gray-500">{item.content}</p>
               <div
                 className={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}  `}
               >

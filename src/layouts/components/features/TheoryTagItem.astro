@@ -1,0 +1,36 @@
+---
+interface Props {
+  title: string;
+  textColor?: string;
+}
+
+const { title, textColor = '#A27617' } = Astro.props;
+
+import { Image } from 'astro:assets';
+---
+
+<div class="lg:col-3 col-12 flex justify-center">
+  <div class="w-[280px]">
+    <div class="row mt-12">
+      <div class="flex items-center justify-center w-full">
+        <Image
+          src={'/images/icon-theory-left.png'}
+          alt=""
+          width={72}
+          height={72}
+          class="shrink-0"
+        />
+        <h4 class={`text-[${textColor}] mx-[-10px] whitespace-nowrap`}>
+          {title}
+        </h4>
+        <Image
+          src={'/images/icon-theory-right.png'}
+          alt=""
+          width={72}
+          height={72}
+          class="shrink-0"
+        />
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+---
+interface Props {
+  title: string;
+  textColor?: string;
+}
+
+const { title, textColor = '#1B5192' } = Astro.props;
+
+import { Image } from 'astro:assets';
+---
+<div class="lg:col-3 md:col-6 col-12 flex items-center gap-2 justify-center md:justify-start">
+  <div class="w-[32px] flex-shrink-0">
+    <Image
+      class="w-full"
+      src="/images/icon-checked-dark.png"
+      alt=""
+      width={32}
+      height={32}
+    />
+  </div>
+  <h5 class={`text-[${textColor}]`}>{title}</h5>
+</div>

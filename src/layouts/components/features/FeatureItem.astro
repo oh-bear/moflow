@@ -1,0 +1,42 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  image: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  reverse?: boolean;
+}
+
+const {
+  title,
+  description,
+  image,
+  imageAlt = "feature",
+  imageWidth = 650,
+  imageHeight = 500,
+  reverse = false
+} = Astro.props;
+
+import { Image } from 'astro:assets';
+---
+
+<div class={`row mt-12 text-left justify-between items-center ${reverse ? 'flex-row-reverse' : ''}`}>
+  <div class="lg:col-6">
+    <h3>
+      {title}
+    </h3>
+    <p class="mt-6 text-gray-500">
+      {description}
+    </p>
+  </div>
+  <div class="lg:col-6">
+    <Image 
+      src={image} 
+      alt={imageAlt} 
+      width={imageWidth} 
+      height={imageHeight} 
+    />
+  </div>
+</div> 

@@ -10,7 +10,7 @@ banner:
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
+  title: "我理解，你一直以来的困扰"
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
@@ -47,7 +47,7 @@ key_features:
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
+    title: MoFlow 能给你什么？
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
         - title: Habit building essential choose habit
@@ -80,52 +80,23 @@ service:
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
+  title: 来听听用户为什么喜爱 MoFlow
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
+    - author: 屁颠屁颠的走向世界
+      avatar: "/images/users/user-1.png"
       organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-6.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
+      rating: five 
+      content: 自从我开始使用这款书写疗愈APP，我的心情变得更加平和。每天花时间倾诉内心的想法，感觉就像有了一个无时无刻倾听的朋友。
+    - author: 惊慌的小鹿
       avatar: "/images/users/user-2.png"
       organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
+      rating: five
+      content: 这个APP真是我的心灵港湾。它不仅帮助我整理散乱的思绪，还让我学会了自我反思和自爱。书写变成了我每日最期待的疗愈时光。
+    - author: 冷雨
       avatar: "/images/users/user-3.png"
       organization: meta limited
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: 我对这款APP的书写提示特别满意，它们启发我探索自己的内心深处。每次书写后，我都有一种重获新生的感觉，焕然一新。
+ 
 ---

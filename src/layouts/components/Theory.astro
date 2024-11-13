@@ -1,0 +1,74 @@
+---
+import { markdownify } from '@/lib/utils/textConverter';
+import { Image } from 'astro:assets';
+import TheoryTagItem from './features/TheoryTagItem.astro';
+import TheoryCheckedItem from './features/TheoryCheckedItem.astro';
+import TheoryReasonCardItem from './features/TheoryReasonCardItem.astro';
+---
+
+<section class="section banner relative">
+  <div class="container">
+    <div class="row items-center">
+      <div class="lg:col-12 text-center">
+        <h2>为什么是书写？</h2>
+
+        <div
+          class="mt-10 max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto flex flex-col p-[50px] items-center self-stretch rounded-[50px] border border-[rgba(0,0,0,0.05)] bg-[#F5FAFC]"
+        >
+          <h4>被科学验证的有效疗愈方法</h4>
+          <div class="mt-10 row justify-center gap-y-6">
+            <TheoryCheckedItem title="被多项实验证明" />
+            <TheoryCheckedItem title="改善精神健康" />
+            <TheoryCheckedItem title="减少忧郁症状" />
+            <TheoryCheckedItem title="增加主观幸福感" />
+            <TheoryCheckedItem title="私密性强" />
+            <TheoryCheckedItem title="促进问题解决" />
+          </div>
+          <div class="mt-10">
+            <p class="text-center text-gray-500">
+              1986年，美国心理学家彭尼贝克让参与者写创伤经历和感受，结果发现，写经历和感受的人六个月后心理健康问题求助率减半。
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 row justify-center gap-y-6 gap-x-10 max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto"
+        >
+          <TheoryReasonCardItem
+            title="提升生理指标"
+            image="/images/reason-1.png"
+            description="研究发现，对于哮喘、类风湿关节炎、肠应激等和免疫系统有关的身体疾病，表达性书写能缓解症状，对降血压也有奇效。"
+          />
+          <TheoryReasonCardItem
+            title="提升心理指标"
+            image="/images/reason-2.png"
+            description="实验发现，表达性书写可缩短失眠者的入睡时间，提高学习能力，增强工作记忆，尤其在书写消极体验时效果更明显。"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section banner relative">
+  <div class="container">
+    <div class="items-center justify-center">
+      <div class="lg:col-12 text-center">
+        <h2>了不起的理论，全用来关爱你</h2>
+      </div>
+      <div class="row max-w-[80%] mx-auto justify-center">
+        <TheoryTagItem title="叙事疗法" />
+        <TheoryTagItem title="认知心理学" />
+        <TheoryTagItem title="积极心理学" />
+        <TheoryTagItem title="正念疗法" />
+      </div>
+      <Image
+        class="w-[176px] mt-12 mx-auto"
+        src="/images/avatars.png"
+        alt=""
+        width={176}
+        height={56}
+      />
+    </div>
+  </div>
+</section>

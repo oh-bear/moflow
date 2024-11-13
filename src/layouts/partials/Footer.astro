@@ -1,16 +1,35 @@
 ---
-import Logo from "@/components/Logo.astro";
-import Social from "@/components/Social.astro";
-import config from "@/config/config.json";
-import menu from "@/config/menu.json";
-import social from "@/config/social.json";
-import { markdownify } from "@/lib/utils/textConverter";
+import Logo from '@/components/Logo.astro';
+import Social from '@/components/Social.astro';
+import config from '@/config/config.json';
+import menu from '@/config/menu.json';
+import social from '@/config/social.json';
+import { markdownify } from '@/lib/utils/textConverter';
 const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
 
-<footer class="footer bg-[#F1F1F1]">
-  <div class="container">
+<footer class="footer">
+  <div class="container max-w-[1440px]">
+    <div class="flex items-start justify-center gap-x-[136px] mx-auto">
+      <Logo />
+      <div class="flex flex-col gap-y-4">
+        <div class="text-xl font-bold">联系我们</div>
+        <div class="text-xl text-gray-500">
+          <p><a href="https://join.slack.com/t/moflow-community/shared_invite/zt-2u6tni6yf-GEeyXxN5UEJViDnsRq0wfQ">Slack</a></p>
+          <p>
+            <a href="xhsdiscover://user/5cc2d4220000000012014e9c">小红书</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container max-w-[1440px]">
+      <div class="footer-copyright mx-auto pb-10 pt-7 text-center">
+        <p class="content text-text" set:html={markdownify(copyright)} />
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <Logo />
@@ -61,5 +80,5 @@ const { copyright, location, email, phone, footer_description } = config.params;
     >
       <p class="content text-text" set:html={markdownify(copyright)} />
     </div>
-  </div>
+  </div> -->
 </footer>

@@ -1,0 +1,36 @@
+---
+interface Props {
+  title: string;
+  image: string;
+  description: string;
+}
+
+const { title, image, description } = Astro.props;
+
+import { Image } from 'astro:assets';
+---
+
+<div
+  class="justify-center gap-y-6  items-center flex flex-col p-10 flex-1 self-stretch rounded-[50px] border border-[rgba(0,0,0,0.05)] bg-[#F5FAFC]"
+>
+  <Image
+    class="w-[90px]"
+    src={image}
+    alt=""
+    width={90}
+    height={90}
+  />
+  <div class="flex justify-center items-center gap-x-2">
+    <h5>{title}</h5>
+    <div class="w-[16px] flex-shrink-0">
+      <Image
+        class="w-full"
+        src="/images/icon-checked-light.png"
+        alt=""
+        width={24}
+        height={24}
+      />
+    </div>
+  </div>
+  <p class="text-center text-gray-500">{description}</p>
+</div>
