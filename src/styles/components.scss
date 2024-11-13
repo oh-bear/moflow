@@ -331,7 +331,7 @@ select:invalid {
 
 //review-carousel
 .review {
-  @apply mx-[0.9rem] my-16 rounded-xl bg-white px-3 py-6 pb-16 text-center;
+  @apply mx-[0.9rem] my-16 rounded-3xl bg-white px-3 py-6 pb-16 text-center;
 
   &-author-avatar {
     @apply mx-auto -mt-12 h-[90px] w-[90px] -translate-y-5 rounded-full p-0.5;

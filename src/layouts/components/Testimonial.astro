@@ -5,12 +5,12 @@ const { testimonial } = Astro.props;
 
 <section class="section reviews">
   <div class="container">
-    <div class="row justify-between">
+    <div class="justify-between">
       <div class="lg:col-12 text-center">
         <h2>{testimonial.title}</h2>
       </div>
     </div>
-    <div class="row mt-10">
+    <div class="mt-10">
       <div class="col-12">
         <TestimonialSlider list={testimonial.testimonial_list} client:load />
       </div>

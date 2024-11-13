@@ -13,17 +13,19 @@ const {
   title,
   description,
   image,
-  imageAlt = "feature",
+  imageAlt = 'feature',
   imageWidth = 650,
   imageHeight = 500,
-  reverse = false
+  reverse = false,
 } = Astro.props;
 
 import { Image } from 'astro:assets';
 ---
 
-<div class={`row mt-12 text-left justify-between items-center gap-y-6 ${reverse ? 'flex-row-reverse' : ''}`}>
-  <div class="lg:col-6">
+<div
+  class={`mt-12 row lg:flex lg:flex-row text-left justify-between items-center gap-x-10 gap-y-6 ${reverse ? 'lg:flex-row-reverse' : ''}`}
+>
+  <div class="col-12 lg:col-auto lg:flex-1">
     <h3>
       {title}
     </h3>
@@ -31,12 +33,7 @@ import { Image } from 'astro:assets';
       {description}
     </p>
   </div>
-  <div class="lg:col-6">
-    <Image 
-      src={image} 
-      alt={imageAlt} 
-      width={imageWidth} 
-      height={imageHeight} 
-    />
+  <div class="col-12 lg:col-auto lg:flex-1">
+    <Image src={image} alt={imageAlt} width={imageWidth} height={imageHeight} />
   </div>
-</div> 
+</div>

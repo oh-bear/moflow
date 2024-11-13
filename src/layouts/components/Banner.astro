@@ -5,7 +5,7 @@ const { banner } = Astro.props;
 const { title, button, image, content } = banner;
 ---
 
-<section class="section banner relative overflow-hidden">
+<section class="section banner relative overflow-hidden max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto">
   <div class="container">
     <div class="row items-center">
       <div class="lg:col-12 text-center">
@@ -34,7 +34,7 @@ const { title, button, image, content } = banner;
         }
       </div>
       <Image
-        class="w-full object-contain mt-12 max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto"
+        class="w-full object-contain mt-12"
         alt="banner"
         src={image}
         width={1247}
@@ -42,20 +42,20 @@ const { title, button, image, content } = banner;
       />
     </div>
   </div>
-
-  <Image
-    class="banner-shape absolute -top-20 -right-20 -z-[1] w-full max-w-[50%]"
-    alt="banner"
-    src="/images/banner-shape-1.png"
-    width={512}
-    height={512}
-  />
-
-  <Image
-    class="banner-shape absolute top-0 left-0 -z-[1] w-full max-w-[50%]"
-    alt="banner"
-    src="/images/banner-shape-2.png"
-    width={512}
-    height={512}
-  />
 </section>
+
+<Image
+  class="banner-shape absolute -top-20 -right-20 -z-[1] w-full max-w-[50%]"
+  alt="banner"
+  src="/images/banner-shape-1.png"
+  width={512}
+  height={512}
+/>
+
+<Image
+  class="banner-shape absolute top-0 left-0 -z-[1] w-full max-w-[50%]"
+  alt="banner"
+  src="/images/banner-shape-2.png"
+  width={512}
+  height={512}
+/>
