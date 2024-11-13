@@ -23,7 +23,11 @@ const { title, button, image, content } = banner;
 
         {
           button.enable && (
-            <a class="btn btn-blue mt-8" href={button.link}>
+            <a
+              class="btn btn-blue mt-8"
+              href={button.link}
+              onclick="gtag('event', 'click_btn_join', { 'event_category': 'banner', 'event_label': 'button' });"
+            >
               {button.label}
             </a>
           )

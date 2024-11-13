@@ -21,7 +21,12 @@ const {
         <div class="row">
           <div class="lg:col-12">
             <h2 class="h1 text-[#1B5192]">{title}</h2>
-            <a class="btn btn-blue mt-8" href={link}>{label}</a>
+            <a
+              class="btn btn-blue mt-8"
+              href={link}
+              onclick="gtag('event', 'click_btn_join', { 'event_category': 'cta', 'event_label': 'button' });"
+              >{label}</a
+            >
           </div>
         </div>
       </div>
