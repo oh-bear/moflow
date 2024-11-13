@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-block h-[52px] border px-8 py-2 text-sm font-medium leading-[36px] transition-all duration-200;
+  @apply inline-block border px-8 py-2 text-sm font-medium leading-[36px] transition-all duration-200;
 }
 
 .btn-primary {
@@ -19,6 +19,12 @@
 
 .btn-white {
   @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-dark shadow-lg hover:shadow;
+}
+
+.btn-blue {
+  @apply min-w-[150px] rounded-[100px] border-[3px] border-white text-center capitalize text-white;
+  background: radial-gradient(61.88% 145.97% at 50% 116.13%, rgba(0,0,0,0) 0%, rgba(31,90,148,0.20) 55.06%), #78C4FF;
+  box-shadow: inset 0px -10px 15px 0px rgba(255,255,255,0.29), inset 0px 4px 7px 0px rgba(255,255,255,0.58);
 }
 
 .btn-sm {

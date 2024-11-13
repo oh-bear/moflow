@@ -1,6 +1,6 @@
 ---
-import { markdownify } from "@/lib/utils/textConverter";
-import { Image } from "astro:assets";
+import { markdownify } from '@/lib/utils/textConverter';
+import { Image } from 'astro:assets';
 const { banner } = Astro.props;
 const { title, button, image, content } = banner;
 ---
@@ -8,36 +8,50 @@ const { title, button, image, content } = banner;
 <section class="section banner relative">
   <div class="container">
     <div class="row items-center">
-      <div class="lg:col-6">
-        <h1 class="banner-title" set:html={markdownify(title)} />
+      <div class="lg:col-12 text-center">
+        <h1 class="banner-title">
+          让情绪自由流动，<span
+            style="background: linear-gradient(95deg, #65BCF9 1.15%, #51BC56 98.85%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;"
+            >书写疗愈</span
+          >力量
+        </h1>
 
-        <p class="mt-6" set:html={markdownify(content)} />
+        <p
+          class="mt-6 text-gray-500 max-w-[800px] mx-auto"
+          set:html={markdownify(content)}
+        />
 
         {
           button.enable && (
-            <a class="btn btn-white mt-8" href={button.link}>
+            <a class="btn btn-blue mt-8" href={button.link}>
               {button.label}
             </a>
           )
         }
       </div>
-      <div class="lg:col-6">
-        <Image
-          class="w-full object-contain"
-          alt="banner"
-          src={image}
-          width={603}
-          height={396}
-        />
-      </div>
+      <Image
+        class="w-full object-contain mt-12 max-w-[80%] mx-auto"
+        alt="banner"
+        src={image}
+        width={1247}
+        height={525}
+      />
     </div>
   </div>
 
   <Image
-    class="banner-shape absolute -top-28 right-0 -z-[1] w-full max-w-[30%]"
+    class="banner-shape absolute -top-20 -right-20 -z-[1] w-full max-w-[50%]"
     alt="banner"
-    src="/images/banner-shape.png"
-    width={496}
-    height={466}
+    src="/images/banner-shape-1.png"
+    width={512}
+    height={512}
+  />
+
+  <Image
+    class="banner-shape absolute top-0 left-0 -z-[1] w-full max-w-[50%]"
+    alt="banner"
+    src="/images/banner-shape-2.png"
+    width={512}
+    height={512}
   />
 </section>

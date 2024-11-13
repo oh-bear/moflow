@@ -1,11 +1,11 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "让情绪自由流动，书写疗愈力量"
+  content: 可能是市面上「最具创造性」的心理学+ AI 。利用书写进行自我疗愈，帮助你缓解情绪，滋养心灵，在这里变得更好。
   image: /images/banner-img.png
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: 抢先体验
+    link: "https://airing.notion.site/13d62eaec2c880f1ae38e2839dcb91df?pvs=105"
     enable: true
 
 ##key features
