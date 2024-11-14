@@ -38,13 +38,22 @@ const { title, button, image, content } = banner;
           )
         }
       </div>
-      <Image
-        class="w-full object-contain mt-12"
-        alt="banner"
-        src={image}
-        width={1247}
-        height={525}
-      />
+      <div class="relative">
+        <Image
+          class="w-full object-contain mt-12 hidden sm:block"
+          alt="banner"
+          src="/images/banner-img.png"
+          width={1247}
+          height={525}
+        />
+        <Image
+          class="w-full object-contain mt-12 block sm:hidden"
+          alt="banner"
+          src="/images/banner-img-sm.png"
+          width={360}
+          height={360}
+        />
+      </div>
     </div>
   </div>
 

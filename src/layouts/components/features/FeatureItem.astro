@@ -23,12 +23,16 @@ import { Image } from 'astro:assets';
 ---
 
 <div
-  class={`mt-12 row lg:flex lg:flex-row text-left justify-between items-center gap-x-10 gap-y-6 ${reverse ? 'lg:flex-row-reverse' : ''}`}
+  class={`mt-12 row lg:flex lg:flex-row justify-between items-center gap-x-10 gap-y-6 ${reverse ? 'lg:flex-row-reverse' : ''}`}
 >
-  <div class="col-12 lg:col-auto lg:flex-1">
-    <h3 class="banner-title flex flex-col sm:flex-row sm:justify-center md:justify-start sm:items-center sm:text-center md:text-left" set:html={title}>
-    </h3>
-    <p class="mt-6 text-gray-500 sm:text-center md:text-left">
+  <div
+    class="col-12 lg:col-auto lg:flex-1 sm:flex sm:flex-col sm:items-center md:items-start"
+  >
+    <h3
+      class="banner-title flex flex-col sm:flex-row sm:items-center md:items-start sm:text-center md:text-left"
+      set:html={title}
+    />
+    <p class="mt-6 text-gray-500 md:text-left sm:text-center">
       {description}
     </p>
   </div>
