@@ -87,16 +87,16 @@ testimonial:
       avatar: "/images/users/user-1.png"
       organization: meta limited
       rating: five 
-      content: 自从我开始使用这款书写疗愈APP，我的心情变得更加平和。每天花时间倾诉内心的想法，感觉就像有了一个无时无刻倾听的朋友。
+      content: 我的天啊，你不知道我找了这类软件找了多久！这才是我理想中的心理疗愈产品，姐妹们给我用用用用！
     - author: 惊慌的小鹿
       avatar: "/images/users/user-2.png"
       organization: meta limited
       rating: five
-      content: 这个APP真是我的心灵港湾。它不仅帮助我整理散乱的思绪，还让我学会了自我反思和自爱。书写变成了我每日最期待的疗愈时光。
+      content: 特别好特别好有被很好地关照呜呜。我不仅可以整理散乱的思绪，还让我学会了自我反思和自爱。书写变成了我每日最期待的疗愈时光。
     - author: 冷雨
       avatar: "/images/users/user-3.png"
       organization: meta limited
       rating: five
-      content: 我对这款APP的书写提示特别满意，它们启发我探索自己的内心深处。每次书写后，我都有一种重获新生的感觉，焕然一新。
+      content: 这个app真的会让我直面问题的根源，有些事情我想不明白，但小黑板会一下子点到问题的关键，才发现是我一直逃避的事情。
  
 ---
