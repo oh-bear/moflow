@@ -4,10 +4,17 @@ import { markdownify } from '@/lib/utils/textConverter';
 import { Image } from 'astro:assets';
 ---
 
-<section class="section banner relative max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto">
+<section
+  class="section banner relative max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto"
+>
   <div class="container">
     <div class="lg:col-12 text-center">
-      <h2>我理解，你一直以来的困扰</h2>
+      <h2
+        class="banner-title flex flex-col sm:flex-row sm:justify-center sm:items-center"
+      >
+        <span>我理解 <span class="hidden sm:inline">，</span></span>
+        <span>你一直以来的困扰</span>
+      </h2>
       <Image
         class="w-full object-contain mt-12"
         src="/images/feature-0.png"
@@ -19,39 +26,41 @@ import { Image } from 'astro:assets';
   </div>
 </section>
 
-<section class="section banner relative max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto">
+<section
+  class="section banner relative max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto"
+>
   <div class="container">
     <div class="lg:col-12 text-center">
       <h2>MoFlow 能给你什么？</h2>
       <FeatureItem
-        title="情绪的绝佳栖息地，被接纳，被允许"
+        title="<span>情绪的绝佳栖息地，</span><span>被接纳，被允许</span>"
         description="在这一片宁静中，用文字和自己对话，与过去和解，你一定会成功更好的自己。"
         image="/images/feature-1.png"
       />
       <FeatureItem
-        title="循循诱导，千人千面的灵魂引导"
+        title="<span>循循诱导，</span><span>千人千面的灵魂引导</span>"
         description="亲爱的，我知道你困在某个问题上，迷茫已久。何不听听我们给你的新视角呢？也许，转个弯，就是一天开阔的天地。"
         image="/images/feature-2.png"
         reverse={true}
       />
       <FeatureItem
-        title="王炸级的深度分析，让你直呼“太准了”"
+        title="<span>王炸级的深度分析，</span><span>让你直呼“太准了”</span>"
         description="基于认知行为疗法的深度分析，提炼出你对事情的深层看法，帮助你洞察自己。"
         image="/images/feature-3.png"
       />
       <FeatureItem
-        title="专属能量卡，你的「电子」布洛芬"
+        title="<span>专属能量卡，</span><span>你的「电子」布洛芬</span>"
         description="1986年，研究者彭尼贝克让参与者写创伤经历和感受，结果发现，写经历和感受的人六个月后心理健康问题求助率减半。"
         image="/images/feature-4.png"
         reverse={true}
       />
       <FeatureItem
-        title="渐入灵魂的洞察，让你的心灵焕发光芒"
+        title="<span>渐入灵魂的洞察，</span><span>让你的心灵焕发光芒</span>"
         description="首创「想法洞察」，并沉淀为个人资产报告。基于认知行为疗法的深度分析，提炼出你对事情的深层看法，帮助你洞察自己，一切美好正在复苏。"
         image="/images/feature-5.png"
       />
       <FeatureItem
-        title="关心你的虚拟伙伴，你的情绪值得被倾听"
+        title="<span>关心你的虚拟伙伴，</span><span>你的情绪值得被倾听</span>"
         description="每一滴眼泪，每一次微笑，我们共同守候。结合最新研究的对话疗愈，将会带来温暖即时的反馈和超受欢迎的人设。（即将上线）"
         image="/images/feature-6.png"
         reverse={true}
