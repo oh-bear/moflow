@@ -22,7 +22,7 @@
 }
 
 .btn-blue {
-  @apply min-w-[150px] rounded-[100px] border-[3px] border-white text-center capitalize text-white;
+  @apply min-w-[180px] rounded-[100px] border-[3px] border-white text-center capitalize text-white text-lg leading-[40px];
   background: radial-gradient(61.88% 145.97% at 50% 116.13%, rgba(0,0,0,0) 0%, rgba(31,90,148,0.20) 55.06%), #78C4FF;
   box-shadow: inset 0px -10px 15px 0px rgba(255,255,255,0.29), inset 0px 4px 7px 0px rgba(255,255,255,0.58);
 }
