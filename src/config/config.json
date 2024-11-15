@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "MoFlow",
+    "title": "MoFlow - AI 疗愈助手",
     "base_url": "https://moflowapp.com",
     "base_path": "/",
     "trailing_slash": false,
